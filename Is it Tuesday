@@ -1,8 +1,0 @@
-# is it tuesday??
-
-import datetime
-
-if (datetime.datetime.today().weekday()) == 1:
-  print("yeah it is Tuesday")
-else:
-  print("no not today!")
