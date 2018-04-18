@@ -1,0 +1,13 @@
+# Open Putty
+# create new file called "first"
+eimearbutler:ipxxx:~$ vim first.sh
+eimearbutler:ipxxx:~$ vim first.sh
+
+#!/bin/bash 
+ech "text" 
+
+"Escape" ":wq"
+
+eimearbutler:ipxxx:~$ chmod +x first.sh #give permissions
+eimearbutler:ipxxx:~$ bash first.sh #run without needing to give permissions
+
