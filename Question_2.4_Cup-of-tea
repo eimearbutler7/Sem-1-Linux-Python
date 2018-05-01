@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo -n "\"$in\" Do you want a cup of tea? "
+read userInput
+
+counter=1
+while [ $counter -le 4 ]
+do
+if [ $userInput = "no" ]; then
+  echo -n "\"$in\" Ah, go on?? "
+read userInput
+fi
+((counter++))
+done
+
+
+if [ $userInput = "yes" ]; then
+  echo "Great I'll make tea now"
+fi
